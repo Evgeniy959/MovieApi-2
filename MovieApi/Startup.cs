@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MovieApi.Extensions;
 using MovieApi.Options;
 using MovieApi.Services;
 using System;
@@ -24,17 +25,23 @@ namespace MovieApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMemoryCache();
             services.AddControllersWithViews();
-            services.AddTransient<IMovieApiService, MovieApiService >();
-            services.AddWebOptimizer(options =>
-            { 
-                options.CompileScssFiles(); 
-            });
-            services.Configure<MovieApiOptions>(options=> 
+            services.AddMovieApi(options =>
             {
                 options.ApiKey = Configuration["MovieApiKey:ApiKey"];
                 options.BaseUrl = Configuration["MovieApiKey:BaseUrl"];
             });
+            //services.AddTransient<IMovieApiService, MovieApiService >();
+            services.AddWebOptimizer(options =>
+            { 
+                options.CompileScssFiles(); 
+            });
+            /*services.Configure<MovieApiOptions>(options=> 
+            {
+                options.ApiKey = Configuration["MovieApiKey:ApiKey"];
+                options.BaseUrl = Configuration["MovieApiKey:BaseUrl"];
+            });*/
             services.AddHttpClient();
             /*Console.WriteLine(Configuration.GetSection("MovieApiKey").GetValue<string>("BaseUrl"));
             Console.WriteLine(Configuration.GetSection("MovieApiKey").GetValue<string>("ApiKey"));*/
