@@ -26,8 +26,15 @@ using MovieApi.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\MovieApi 2 Git\MovieApi-2\MovieApi\Views\_ViewImports.cshtml"
+using MovieApi.HtmlHelpers;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"71eaa8debbc13ca8b294635b07339d97cf09d345", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6b0997fe364d13359ede1978d3da0b7e8911c73", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

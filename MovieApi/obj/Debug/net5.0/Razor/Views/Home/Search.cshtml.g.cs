@@ -26,8 +26,15 @@ using MovieApi.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\MovieApi 2 Git\MovieApi-2\MovieApi\Views\_ViewImports.cshtml"
+using MovieApi.HtmlHelpers;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2a9be386debfbd06fc12812b22f3161d0dd12822", @"/Views/Home/Search.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"71eaa8debbc13ca8b294635b07339d97cf09d345", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6b0997fe364d13359ede1978d3da0b7e8911c73", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Search : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<MovieApiResponse>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "_MovieCardPartial", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -100,7 +107,7 @@ using MovieApi.Models;
 #line hidden
 #nullable disable
             WriteLiteral("            <div class=\"col-md-4\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2a9be386debfbd06fc12812b22f3161d0dd128225106", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2a9be386debfbd06fc12812b22f3161d0dd128225337", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

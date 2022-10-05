@@ -26,8 +26,15 @@ using MovieApi.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\MovieApi 2 Git\MovieApi-2\MovieApi\Views\_ViewImports.cshtml"
+using MovieApi.HtmlHelpers;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f449306bf063057264be2601baa8218a91014468", @"/Views/Shared/_MovieCardPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"71eaa8debbc13ca8b294635b07339d97cf09d345", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6b0997fe364d13359ede1978d3da0b7e8911c73", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__MovieCardPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Details>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Details", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -67,7 +74,7 @@ using MovieApi.Models;
 #line hidden
 #nullable disable
             WriteLiteral("    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f449306bf063057264be2601baa8218a910144684278", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f449306bf063057264be2601baa8218a910144684509", async() => {
                 WriteLiteral("\r\n        <img");
                 BeginWriteAttribute("src", " src=\"", 168, "\"", 187, 1);
 #nullable restore
@@ -163,7 +170,7 @@ WriteAttributeValue("", 320, Model.Poster, 320, 13, false);
 #line hidden
 #nullable disable
             WriteLiteral("<div class=\"show\">\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f449306bf063057264be2601baa8218a910144689232", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f449306bf063057264be2601baa8218a910144689463", async() => {
             }
             );
             __MovieApi_TagHelpers_MovieDetailTagHelper = CreateTagHelper<global::MovieApi.TagHelpers.MovieDetailTagHelper>();
