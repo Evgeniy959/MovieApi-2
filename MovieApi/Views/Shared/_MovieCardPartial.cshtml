@@ -16,9 +16,11 @@
     <p class="card-text">@Model.Year. &nbsp</p>
     @if (Model.Plot == null)
     {
-        <div class="show">
-            <a asp-controller="Home" asp-action="Details" asp-route-id="@Model.imdbID" class="btn btn-primary">Show Details</a>
-        </div>
+<div class="show">
+    <a movie="@Model"></a>
+    @*<movie-detail movie="@Model"></movie-detail>*@
+    @*<a asp-controller="Home" asp-action="Details" asp-route-id="@Model.imdbID" class="btn btn-primary">Show Details</a>*@
+</div>
     }
 </div>
 </div>
